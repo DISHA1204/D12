@@ -1,0 +1,71 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">This form should be filled with required information.</p>
+      <form id="survey-form">
+        <label id="name-label">Enter Your Name: <input type="text" id="name" name="name" placeholder="Your name" required></label>
+       <label id="email-label"> Enter Your Email: <input id="email" name="email" type="email" placeholder="Your email" required /></label>
+<label id="number-label">Phone Number: <input type="number" id="number" name="number" min="10" max="10" placeholder="Your Number" required></label>
+<label>Is the survey form easy to fill?</label>
+<select id="dropdown">
+  <option id="">Select any one</option>
+  <option id="1">Yes</option>
+  <option id="2">No</option>
+  </select>
+  <label><input type="radio" name="gender" value="male">Male</label>
+  <label><input type="radio" name="gender" value="female">Female</label>
+  <label>How satisfied are you with this survey form?</label>
+  <label><input type="Checkbox" value="satisfaction">Satisfied</label>
+  <label><input type="Checkbox" value="satisfaction">Slightly Satisfied</label>
+  <label><input type="Checkbox" value="satisfaction">Not Satisfied</label>
+  <label> Reviews <textarea></textarea></label>
+  <input type="submit" id="submit">
+      </form>
+      </body>
+  
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1, p{
+  text-align: center;
+}
+body{
+  background-color: #afeeee;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+** end of undefined **
+
