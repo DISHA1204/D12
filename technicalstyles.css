@@ -1,0 +1,25 @@
+body{
+  display: block;
+  background-color: #C3B1E1;
+}
+header{
+  text-align: center;
+  color: purple;
+}
+p{
+  text-align: left;
+}
+@media(min-width:165px){
+
+}
+.nav-link{
+  font-style: italic;
+}
+code{
+  font-style: bold;
+}
+nav{
+  text-align: center;
+  display: block;
+  width:60px;
+}
